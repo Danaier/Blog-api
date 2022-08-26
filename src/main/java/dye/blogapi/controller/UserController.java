@@ -63,6 +63,7 @@ public class UserController {
     @PostMapping("register")
     @ApiOperation(value = "用户注册",notes = "")
     public CommonResponse<Object> register(@RequestBody @Valid User user){
+        System.out.println("user is"+user);
         return userService.register(user);
     }
 
