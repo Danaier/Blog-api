@@ -1,9 +1,11 @@
 #!/bin/bash
 
+echo '----before Deploying,use git pull first----'
+echo ''
 echo 'start auto deploying~'
-echo 'start git pulling'
+#echo 'start git pulling'
 
-git pull
+#git pull
 
 echo 'git pull done'
 
