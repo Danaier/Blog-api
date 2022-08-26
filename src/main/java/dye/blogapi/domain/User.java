@@ -20,8 +20,8 @@ public class User {
     private String username;
     @NotBlank(message = "密码不能为空")
     private String password;
-//    @NotBlank(message = "邮箱不能为空")
-//    private String email;
+    @NotBlank(message = "邮箱不能为空")
+    private String email;
 //    @NotBlank(message = "电话号码不能为空")
 //    private String phone;
 //
